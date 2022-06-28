@@ -16,6 +16,6 @@ This function will return four things if 's' is not equal to 0: train and test s
 Otherwise, the input and output dataset will be returned as a whole.
 
 This function is written mainly to work on the FeTA Dataset, however, it can be easily be modified to work on any other dataset by making some minor changes:
-- Commenting/deleting out 78th line and the code portions where the 'non_blur' variable is used. This is exclusively for feta dataset.
-- Updating 86th line to the required naming pattern for getting the corresponding segmented output from the output folder.
+- Commenting/deleting out 96th line and the code portions where the 'non_blur' variable is used. This is exclusively for feta dataset.
+- Updating 106th line to the required naming pattern for getting the corresponding segmented output from the output folder.
 - In case of the feta dataset, a single .tsv file had both type and age prediction information. However, this might not be the case for some other dataset. Thus, this part can also be edited to the required form (for example, two variables for accessing data from two different files).
