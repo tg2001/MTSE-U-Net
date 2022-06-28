@@ -1,6 +1,6 @@
 from tensorflow.keras import models, layers
 
-def mod_7_skip():
+def create_model():
 
   inp = layers.Input(shape=(256, 256, 1))
 
