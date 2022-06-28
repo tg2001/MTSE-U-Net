@@ -2,7 +2,7 @@
 
 This folder contains the files for the code of the models we have developed and tested in our work.
 
-One file is dedicated to each model. Each file contains one function, which when called (no parameters need to be passed), will return the respective model.
+One file is dedicated to each model. Each file contains one function, named create_model(), which when called (no parameters need to be passed), will return the respective model.
 
 However, the model will be initialised with random weights, so to use the model for the prediction purpose, the correct weights should be loaded into the model.
 
