@@ -1,6 +1,6 @@
 from tensorflow.keras import models, layers
 
-def no_mod_6():
+def create_model():
 
   inp = layers.Input(shape=(256, 256, 1))
 
@@ -69,7 +69,6 @@ def no_mod_6():
   dense1 = layers.Dense(60, activation='relu')(dense1_)
 
   dense2 = layers.Dense(40, activation='relu')(dense1)
-  conc_d1 = layers.concatenate([dense1_, dense2])
   dense2 = layers.Dense(20, activation='relu')(dense2)
   outp2 = layers.Dense(3, name='output2', activation='sigmoid')(dense2)
 
