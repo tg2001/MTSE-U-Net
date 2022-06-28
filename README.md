@@ -13,7 +13,7 @@ The repository contains the following folders:
 - Dataset: Contains code for creating the dataset
 - Testing: Contains code for using the model for performing segmentation and also for testing the performance of the models
 - Visualisation: Contains code for visualising the dataset
-- Models: Contains the code for the 7 models we tested out
+- Models: Contains the code for all the models we tested out
 
 (Information the codes and how to use them are uploaded in the readme file of their respective folders)
 
