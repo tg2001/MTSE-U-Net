@@ -33,6 +33,7 @@ We have also created a demo colab file on how to use these modules for creating 
 
 Libraries used in this this repository:
 - Numpy
+- Pandas
 - Opencv
 - OS
 - Scikit-Learn
