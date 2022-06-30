@@ -17,7 +17,7 @@ from Dataset.preprocessing import reduce_2d, flip, blur
 
 # Function for splitting the dataset into train and test set and normalising the values
 
-def split_dataset(input_mri, output_mri, s):
+def split_dataset(input_mri, output_mri, mri_type, age, s):
 
   input_mri = np.array(input_mri, dtype=np.uint8)
   output_mri = np.array(output_mri, dtype=np.uint8)
@@ -279,7 +279,7 @@ def create_dataset(path1, path2, f, n=40, s=0.05):
   del data1, data2, d1, d2
   del data10, data20, data11, data21, data12, data22
   
-  return split_dataset(input_mri, output_mri, s)
+  return split_dataset(input_mri, output_mri, mri_type, age, s)
 
 
 
