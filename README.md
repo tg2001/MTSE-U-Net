@@ -29,7 +29,7 @@ The model will output an unsymmetrical 3D array:
 - The second output is the type prediction of the fetal brain. Three values will be returned corresponding to the following types: 'Age cannot be predicted from the slice', 'Pathological' or 'Neurotypical'. The one with the highest value will be chosen as the output.
 - The third output is the age prediction of the fetus. This value is normalised, which will be changed back to the original form.
 
-We have also created a demo colab file on how to use these modules for creating a dataset, visualising it, testing the models and getting outputs from them. It is uploaded in this [link](https://colab.research.google.com/drive/1Pn-iytS_8yZU3JegqfJcD4QnyF47UY3R?usp=sharing).
+We have also created a demo colab file on how to use these modules for creating a dataset, visualising it, training and testing the models and getting outputs from them. It is uploaded in this [link](https://colab.research.google.com/drive/1Pn-iytS_8yZU3JegqfJcD4QnyF47UY3R?usp=sharing).
 
 Libraries used in this this repository:
 - Numpy
