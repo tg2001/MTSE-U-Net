@@ -42,4 +42,4 @@ Libraries used in this this repository:
 - Time
 - Tqdm
 - Matplotlib
-- Ipywidget (required for visualization of 3D volumes; can only be used in Ipython notebooks)
+- Ipywidgets (required for visualization of 3D volumes; can only be used in Ipython notebooks)
