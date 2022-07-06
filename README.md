@@ -1,6 +1,6 @@
 # MTSE U-Net
 
-This is the repository for the following paper: Performing Multiple Tasks on Fetal Brain Images using a MTSE U-Net Architecture
+This is the repository for the following paper: MTSE U-Net: An architecture for segmentation and prediction of fetal brain and gestational age from MRI of brain
 
 This paper is for performing three tasks:
 - Segmenting the fetal brain into its seven major components: Intracranial space and extra-axial CSF spaces, Gray matter, White matter, Ventricles, Cerebellum, Deep gray matter and the Brainstem and spinal cord.
