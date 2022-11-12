@@ -46,3 +46,8 @@ Libraries used in this this repository:
 - Tqdm
 - Matplotlib
 - Ipywidgets (required for visualization of 3D volumes; can only be used in Ipython notebooks)
+
+Please cite our paper:
+```
+Gangopadhyay, T., Halder, S., Dasgupta, P. et al. MTSE U-Net: an architecture for segmentation, and prediction of fetal brain and gestational age from MRI of brain. Netw Model Anal Health Inform Bioinforma 11, 50 (2022). https://doi.org/10.1007/s13721-022-00394-y
+```
