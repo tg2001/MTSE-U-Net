@@ -34,18 +34,7 @@ The model will output an unsymmetrical 3D array:
 
 We have also created a demo colab file on how to use these modules for creating a dataset, visualising it, training and testing the models and getting outputs from them. It is uploaded in this [link](https://colab.research.google.com/drive/1Pn-iytS_8yZU3JegqfJcD4QnyF47UY3R?usp=sharing).
 
-Libraries used in this this repository:
-- Numpy
-- Pandas
-- Opencv
-- OS
-- Scikit-Learn
-- Tensorflow 2
-- Nibabel
-- Time
-- Tqdm
-- Matplotlib
-- Ipywidgets (required for visualization of 3D volumes; can only be used in Ipython notebooks)
+As part of the Springer Nature Content Sharing Initiative, here is the SharedIt access link to our paper (view-only version): https://rdcu.be/cZv6s
 
 Please cite our paper:
 ```
