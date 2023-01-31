@@ -24,7 +24,7 @@ We have used Google Colaboratory for all the tasks.
 
 The input to our model is a 3D array, containing all the 2D images that should be given to the model. Each image is of the shape (256x256).
 
-The model files and saved weights are uploaded in this [google drive link](https://drive.google.com/drive/folders/1APnGfspLJN9vU_PL0TSXS52TjynUAvnO?usp=sharing).
+The MTSE U-Net model file and saved weights is uploaded in this [google drive link](https://drive.google.com/drive/folders/1APnGfspLJN9vU_PL0TSXS52TjynUAvnO?usp=sharing).
 
 The model will output an unsymmetrical 3D array:
 
