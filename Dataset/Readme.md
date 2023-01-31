@@ -2,6 +2,8 @@
 
 This folder contains the files for the preprocessing steps and the dataset creation step for training and testing the models.
 
+First of all, download the FeTA 2.1 dataset, then the next steps will follow. We cannot publicly provide the dataset.
+
 For creating the dataset, the function create_dataset() in this folder should be called with the following parameters:
 - First one is the path to the folder containing the 3D volumes (in the NIfTI format), which will form the input to the model.
 - Second one is the path to the folder containing the 3D volumes (in the NIfTI format), which will form the corresponding segmented output.
